@@ -1,0 +1,21 @@
+ticker,name,sector,shares_outstanding
+AAPL,Apple Inc.,Information Technology,14800000000
+MSFT,Microsoft Corp.,Information Technology,7430000000
+NVDA,NVIDIA Corp.,Information Technology,24300000000
+AMZN,Amazon.com Inc.,Consumer Discretionary,10700000000
+GOOGL,Alphabet Inc.,Communication Services,12100000000
+META,Meta Platforms Inc.,Communication Services,2520000000
+AVGO,Broadcom Inc.,Information Technology,4720000000
+TSLA,Tesla Inc.,Consumer Discretionary,3320000000
+LLY,Eli Lilly and Co.,Health Care,946000000
+JPM,JPMorgan Chase & Co.,Financials,2750000000
+V,Visa Inc.,Financials,1940000000
+WMT,Walmart Inc.,Consumer Staples,7980000000
+XOM,Exxon Mobil Corp.,Energy,4260000000
+UNH,UnitedHealth Group Inc.,Health Care,906000000
+MA,Mastercard Inc.,Financials,904000000
+ORCL,Oracle Corp.,Information Technology,2840000000
+COST,Costco Wholesale Corp.,Consumer Staples,443000000
+HD,Home Depot Inc.,Consumer Discretionary,995000000
+PG,Procter & Gamble Co.,Consumer Staples,2340000000
+JNJ,Johnson & Johnson,Health Care,2410000000

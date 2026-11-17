@@ -1,0 +1,13 @@
+check,status,detail
+PR: weights_sum_to_one,PASS,max abs(sum - 1) = 2.22e-16 across 9 rebalances
+PR: cap_respected,PASS,max weight 15.00% vs cap 15.00%
+PR: rebalance_continuity,PASS,max level gap at rebalance = 2.22e-16
+PR: no_missing_levels,PASS,0 missing levels
+PR: shadow_calculation_match,PASS,max relative difference = 6.66e-16
+PR: daily_move_within_bounds,PASS,largest daily move 3.46% on 2025-03-27 (limit 15%)
+TR: weights_sum_to_one,PASS,max abs(sum - 1) = 2.22e-16 across 9 rebalances
+TR: cap_respected,PASS,max weight 15.00% vs cap 15.00%
+TR: rebalance_continuity,PASS,max level gap at rebalance = 2.22e-16
+TR: no_missing_levels,PASS,0 missing levels
+TR: shadow_calculation_match,PASS,max relative difference = 6.66e-16
+TR: daily_move_within_bounds,PASS,largest daily move 3.46% on 2025-03-27 (limit 15%)

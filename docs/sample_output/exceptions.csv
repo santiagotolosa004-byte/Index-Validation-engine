@@ -1,0 +1,12 @@
+ticker,date,check,severity,value,detail,remediation
+TERR,2025-07-10,dividend_outlier,ERROR,100.36,dividend 100.36 = 50.0% of previous close 200.73,Dividend excluded from total-return calculation (confirm with vendor)
+VELA,2025-01-15,duplicate_record,ERROR,2.0,2 records; prices 102.12 / 105.18,Kept first record received; later conflicting record discarded
+ZEPH,2025-05-20,non_positive_price,ERROR,0.0,close = 0.0,Price removed and last valid price carried forward
+LUMA,2025-03-03,possible_unrecorded_split,ERROR,3.0,-66.7% move matches a 3:1 split; none recorded,Provisional split added to corporate actions (confirm with vendor)
+KITE,2024-10-08,price_spike,ERROR,1098.3,+918.0% move fully reversed next day (prev close 107.89),Erroneous tick removed and last valid price carried forward
+QUAR,2025-09-15,split_not_reflected,ERROR,2.0,recorded 2:1 split but prices moved 1.01x,Split removed from corporate actions (confirm with vendor)
+ORBT,2024-03-12,missing_price,WARNING,,no price record on a trading day,Last valid price carried forward
+ORBT,2024-03-13,missing_price,WARNING,,no price record on a trading day,Last valid price carried forward
+ORBT,2024-03-14,missing_price,WARNING,,no price record on a trading day,Last valid price carried forward
+MIRA,2025-10-21,price_jump,WARNING,-0.2484531436880182,"-22.0% one-day move (not reversed, no split pattern)",No change - review against news / corporate events
+HELX,2024-08-05,stale_price,WARNING,5.0,5 identical closes of 174.98 until 2024-08-09,"No change - review (possible halt, illiquidity or feed problem)"

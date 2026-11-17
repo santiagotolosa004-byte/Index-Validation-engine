@@ -1,0 +1,12 @@
+ticker,date,reason,change
+VELA,2025-01-15,duplicate_record,dropped later duplicate record(s)
+ZEPH,2025-05-20,non_positive_price,removed price 0.00
+KITE,2024-10-08,price_spike,removed price 1098.30
+ORBT,2024-03-12,fill,last valid price carried forward
+ORBT,2024-03-13,fill,last valid price carried forward
+ORBT,2024-03-14,fill,last valid price carried forward
+KITE,2024-10-08,fill,last valid price carried forward
+ZEPH,2025-05-20,fill,last valid price carried forward
+QUAR,2025-09-15,split_not_reflected,removed recorded split 2
+TERR,2025-07-10,dividend_outlier,excluded dividend 100.36
+LUMA,2025-03-03,possible_unrecorded_split,added provisional split 3

@@ -1,0 +1,6 @@
+pandas>=2.1
+numpy>=1.26
+duckdb>=1.0
+matplotlib>=3.8
+yfinance>=0.2.40
+pytest>=8.0
